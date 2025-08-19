@@ -1,0 +1,23 @@
+name: "🚀 Improvement / Enhancement"
+description: Suggest an improvement to the roadmap or docs
+title: "[Improvement]: "
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for suggesting an improvement! Please fill in the details below.
+  - type: input
+    id: area
+    attributes:
+      label: 📂 Area of the roadmap
+      description: Which section does this improvement apply to?
+      placeholder: "Frontend - React"
+  - type: textarea
+    id: description
+    attributes:
+      label: ✨ Description
+      description: Clearly describe the improvement you’d like to see.
+      placeholder: "Add more resources for learning React best practices..."
+    validations:
+      required: true

@@ -1,0 +1,25 @@
+name: "🐞 Content Fix"
+description: Report a typo, broken link, or incorrect info in the roadmap
+title: "[Fix]: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting an issue! Please provide details below.
+  - type: input
+    id: location
+    attributes:
+      label: 📍 Location
+      description: Where did you find the issue? (link or section name)
+      placeholder: "Frontend - HTML section"
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: 📝 Details
+      description: What exactly is wrong? (typo, broken link, wrong info)
+      placeholder: "The link to MDN CSS docs is broken."
+    validations:
+      required: true

@@ -1,0 +1,13 @@
+name: "💡 General Suggestion"
+description: Share a new idea or feedback for the roadmap
+title: "[Suggestion]: "
+labels: [discussion]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: 💡 Idea
+      description: Describe your idea or suggestion in detail.
+      placeholder: "Maybe we can add a ... section in the roadmap..."
+    validations:
+      required: true
